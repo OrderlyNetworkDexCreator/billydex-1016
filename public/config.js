@@ -27,7 +27,7 @@ window.__RUNTIME_CONFIG__ = {
   "VITE_TWITTER_URL": "https://x.com/Bnbbillycoin",
   "VITE_SEO_SITE_NAME": "BillyFlow",
   "VITE_SEO_SITE_DESCRIPTION": "BillyFlow is a next generation decentralized perpetual exchange built for traders who demand speed, deep liquidity, and a seamless trading experience.",
-  "VITE_SEO_SITE_URL": "https://dex.orderly.network/billydex-1016/",
+  "VITE_SEO_SITE_URL": "https://billyspace.info",
   "VITE_SEO_SITE_LANGUAGE": "en",
   "VITE_SEO_SITE_LOCALE": "en_US",
   "VITE_SEO_TWITTER_HANDLE": "@BillyFlow",
