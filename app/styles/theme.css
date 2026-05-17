@@ -1,5 +1,5 @@
 :root {
-  --oui-font-family: 'Manrope', sans-serif;
+  --oui-font-family: 'Satoshi', sans-serif;
   --oui-font-size-base: 16px;
 
   /* colors */
@@ -95,90 +95,15 @@
 }
 
 html, body {
-  font-family: 'Manrope', sans-serif !important;
+  font-family: 'Nunito', sans-serif !important;
   font-size: 16px !important;
-  background: rgb(1 3 8) !important;
-  color: rgb(245 248 252) !important;
 }
 
 .orderly-app-container,
 .orderly-app-container *,
 .orderly-app-container *::before,
 .orderly-app-container *::after {
-  font-family: 'Manrope', sans-serif !important;
-}
-
-.orderly-app-container {
-  background:
-    radial-gradient(circle at top left, rgba(0, 224, 255, 0.14), transparent 32%),
-    radial-gradient(circle at top right, rgba(245, 184, 62, 0.12), transparent 30%),
-    linear-gradient(180deg, rgb(4 8 14) 0%, rgb(1 3 8) 100%) !important;
-  color: rgb(245 248 252) !important;
+  font-family: 'Nunito', sans-serif !important;
 }
 
 
-
-
-/* BillyFlow safe premium overrides */
-/* Add below the existing CSS. Do not delete the original code. */
-
-.orderly-app-container header,
-.orderly-app-container nav {
-  background: rgba(1, 3, 8, 0.92) !important;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.045) !important;
-}
-
-/* Fix tiny website logo only */
-.orderly-app-container img[alt*="logo"],
-.orderly-app-container img[alt*="Logo"],
-.orderly-app-container img[src*="logo"] {
-  height: 36px !important;
-  width: auto !important;
-  max-width: 180px !important;
-  object-fit: contain !important;
-  filter: drop-shadow(0 0 10px rgba(0, 224, 255, 0.14)) !important;
-}
-
-/* Prevent every button from becoming loud */
-.orderly-app-container header button:not([class*="connect"]),
-.orderly-app-container nav button:not([class*="connect"]) {
-  background: rgba(15, 23, 34, 0.82) !important;
-  border: 1px solid rgba(255, 255, 255, 0.055) !important;
-  box-shadow: none !important;
-}
-
-/* Only wallet connect should use BillyFlow gradient */
-.orderly-app-container button[class*="connect"],
-.orderly-app-container [class*="connect"] button {
-  background: linear-gradient(
-    135deg,
-    rgb(0 224 255) 0%,
-    rgb(82 234 232) 52%,
-    rgb(245 184 62) 100%
-  ) !important;
-  color: rgb(1 3 8) !important;
-  border: 0 !important;
-  box-shadow:
-    0 10px 24px rgba(0, 224, 255, 0.16),
-    inset 0 1px 0 rgba(255, 255, 255, 0.42) !important;
-}
-
-/* Desktop logo polish */
-@media (min-width: 1024px) {
-  .orderly-app-container img[alt*="logo"],
-  .orderly-app-container img[alt*="Logo"],
-  .orderly-app-container img[src*="logo"] {
-    height: 38px !important;
-    max-width: 190px !important;
-  }
-}
-
-/* Mobile logo polish */
-@media (max-width: 768px) {
-  .orderly-app-container img[alt*="logo"],
-  .orderly-app-container img[alt*="Logo"],
-  .orderly-app-container img[src*="logo"] {
-    height: 34px !important;
-    max-width: 160px !important;
-  }
-}
